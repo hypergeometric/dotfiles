@@ -1,22 +1,22 @@
 [user]
-    name = Ben Shepheard
-    email = ben.shepheard@iondrivesoftware.com
-    
+  name = Ben Shepheard
+  email = ben.shepheard@iondrivesoftware.com
+
 [credential]
-    helper = osxkeychain
+  helper = osxkeychain
 
 [push]
-    default = simple
+  default = simple
 
 [pull]
-	rebase = true
+  rebase = true
 
 [alias]
-    st = status
-    head = !git l -1
-    h = !git head
-    hp = "!. ~/.githelpers && show_git_head"
-    r = !git l -30
-    ra = !git r --all
-    l = "!. ~/.githelpers && pretty_git_log"
-    la = !git l --all    
+  st = status
+  head = !git l -1
+  h = !git head
+  hp = "!. ~/.githelpers && show_git_head"
+  r = !git l -30
+  ra = !git r --all
+  l = "!. ~/.githelpers && pretty_git_log"
+  la = !git l --all
