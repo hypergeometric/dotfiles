@@ -1,8 +1,10 @@
+/.cache
 /.config
 /.cups
 /.dropbox
 /.node-gyp
 /.npm
+/.npm-stash
 /.ssh
 /.Trash
 /Applications
