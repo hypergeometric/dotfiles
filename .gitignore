@@ -22,6 +22,7 @@
 .DS_Store
 /.bash_history
 /.CFUserTextEncoding
+/.lesshst
 /.npmrc
 /.viminfo
 /.zcompdump*
