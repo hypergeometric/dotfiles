@@ -19,7 +19,7 @@ zsh-users/zsh-syntax-highlighting
 EOBUNDLES
 
 # Load the theme.
-antigen theme robbyrussell
+antigen theme lambda
 
 # Tell antigen that you're done.
 antigen apply
