@@ -1,4 +1,4 @@
-source antigen/antigen.zsh
+source .zsh/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -38,8 +38,8 @@ path=(
 
 GOOGLE_CLOUD_SDK_DIR=/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/
 if [ -e $GOOGLE_CLOUD_SDK_DIR ]; then
-  source GOOGLE_CLOUD_SDK_DIR/path.zsh.inc
-  autoload -U bashcompinit && bashcompinit && source GOOGLE_CLOUD_SDK_DIR/completion.zsh.inc
+  source $GOOGLE_CLOUD_SDK_DIR/path.zsh.inc
+  autoload -U bashcompinit && bashcompinit && source $GOOGLE_CLOUD_SDK_DIR/completion.zsh.inc
 fi
 
 alias brew-deps='brew list | while read cask; do echo -n "\e[1;34m$cask ->\e[0m"; brew deps $cask | awk ''{printf(" %s ", $0)}''; echo ""; done'
