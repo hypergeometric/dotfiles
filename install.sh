@@ -32,4 +32,5 @@ for name in $files; do
   symlink $name
 done
 
+symlink bin ~/bin
 symlink Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings
