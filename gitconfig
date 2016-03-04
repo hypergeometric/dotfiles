@@ -1,6 +1,6 @@
 [user]
   name = Ben Shepheard
-  email = ben@iondrive.co.uk
+  email = ben@codeagency.com
 
 [credential]
   helper = osxkeychain
@@ -10,3 +10,8 @@
 
 [pull]
   rebase = true
+
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true

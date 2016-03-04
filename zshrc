@@ -19,7 +19,7 @@ zsh-users/zsh-syntax-highlighting
 EOBUNDLES
 
 # Load the theme.
-antigen theme lambda
+antigen theme ys
 
 # Tell antigen that you're done.
 antigen apply
@@ -43,3 +43,7 @@ if [ -e $GOOGLE_CLOUD_SDK_DIR ]; then
 fi
 
 alias brew-deps='brew list | while read cask; do echo -n "\e[1;34m$cask ->\e[0m"; brew deps $cask | awk ''{printf(" %s ", $0)}''; echo ""; done'
+
+vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+
+export EDITOR='subl -w'
