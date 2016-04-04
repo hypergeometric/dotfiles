@@ -44,6 +44,4 @@ fi
 
 alias brew-deps='brew list | while read cask; do echo -n "\e[1;34m$cask ->\e[0m"; brew deps $cask | awk ''{printf(" %s ", $0)}''; echo ""; done'
 
-vscode () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-
 export EDITOR='subl -w'
