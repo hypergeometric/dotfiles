@@ -1,6 +1,7 @@
 #!/bin/bash
 
 files=$(cat <<EOF
+editorconfig
 gitconfig
 zsh
 zshrc
