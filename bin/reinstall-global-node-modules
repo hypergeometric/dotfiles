@@ -14,8 +14,9 @@ packages=(
   ionic
   ios-deploy
   ios-sim
+  json
   n
-  npm-check-updates
+  npm-check
   phantomjs-prebuilt
   react-native-cli
   typescript
