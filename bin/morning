@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo 'Good morning!'
+
+brew update && brew upgrade && brew cleanup
+n lts
+npm-check -gu
+
+echo 'Have a nice day!'
