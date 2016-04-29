@@ -30,6 +30,7 @@ export ANDROID_HOME=$ANDROID_SDK_ROOT
 
 path=(
   ~/bin
+  ~/.composer/vendor/bin/
   $path
   #~/Applications/Firefox.app/Contents/MacOS
 )
