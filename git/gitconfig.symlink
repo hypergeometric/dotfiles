@@ -1,0 +1,18 @@
+[user]
+  name = Ben Shepheard
+  email = ben@dynamictypes.com
+
+[credential]
+  helper = osxkeychain
+
+[core]
+  excludesfile = ~/.gitignore
+
+[push]
+  default = simple
+
+[pull]
+  rebase = true
+
+[rebase]
+  autostash = true
