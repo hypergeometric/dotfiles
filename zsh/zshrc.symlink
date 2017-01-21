@@ -1,5 +1,7 @@
 export DOTFILES="$HOME/.dotfiles"
 
+export EDITOR='subl -w'
+
 fpath=(
   "$HOME/.zfunctions"
   $fpath
