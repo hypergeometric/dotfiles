@@ -1,3 +1,5 @@
+export DOTFILES="$HOME/.dotfiles"
+
 fpath=(
   "$HOME/.zfunctions"
   $fpath
@@ -12,6 +14,8 @@ manpath=(
   '/usr/local/opt/coreutils/libexec/gnuman'
   $manpath
 )
+
+source "$DOTFILES/zsh/functions.zsh"
 
 autoload -U promptinit; promptinit
 prompt pure
