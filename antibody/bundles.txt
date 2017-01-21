@@ -1,0 +1,5 @@
+mafredri/zsh-async
+zsh-users/zsh-completions
+sindresorhus/pure
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-history-substring-search

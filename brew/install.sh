@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install Homebrew or update and upgrade existing formulae.
-if ! type "brew" >/dev/null; then
+if ! type brew >/dev/null; then
   /usr/bin/ruby \
     -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" \
     </dev/null
