@@ -10,6 +10,7 @@ install appcleaner
 install github-desktop
 install google-chrome
 install iterm2
+install spectacle
 install sublime-text
 install visual-studio-code
 
