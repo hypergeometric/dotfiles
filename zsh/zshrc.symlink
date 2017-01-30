@@ -13,6 +13,11 @@ manpath=(
 )
 
 source "$DOTFILES/zsh/functions.zsh"
+source "$DOTFILES/zsh/key-bindings.zsh"
 
 # Load antibody plugins
 source ~/.bundles.txt
+
+source "$DOTFILES/zsh/history.zsh"
+source "$DOTFILES/zsh/completion.zsh"
+
