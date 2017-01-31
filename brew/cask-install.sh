@@ -6,6 +6,7 @@ function install() {
   fi
 }
 
+install 1password
 install appcleaner
 install dropbox
 install github-desktop
