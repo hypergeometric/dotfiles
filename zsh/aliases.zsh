@@ -1,2 +1,2 @@
-alias ls='ls -Gp --color=auto'
-alias la='ls -lA'
+alias ls='ls -AGph --color=auto'
+alias la='ls -l'
