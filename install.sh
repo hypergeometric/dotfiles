@@ -2,9 +2,26 @@
 
 DIRNAME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-ln -snf "${DIRNAME}/zsh/zshrc.symlink" "${HOME}/.zshrc"
+FILES=(
+  editorconfig
+  gitconfig
+  gitignore
+  zshrc
+)
 
-ln -snf "${DIRNAME}/git/gitconfig.symlink" "${HOME}/.gitconfig"
-ln -snf "${DIRNAME}/git/gitignore.symlink" "${HOME}/.gitignore"
+for file in "${FILES[@]}"; do
+  ln -snf "$DIRNAME/.$file" "$HOME/.$file"
+  echo "Linked .$file into $HOME"
+done
 
-ln -snf "${DIRNAME}/editorconfig/editorconfig.symlink" "${HOME}/.editorconfig"
+INSTALLS=(
+  antibody
+  macos
+  vscode
+)
+
+export DOTFILES="$DIRNAME"
+
+for install in "${INSTALLS[@]}"; do
+  (exec "${DIRNAME}/${install}/install.sh")
+done

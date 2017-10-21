@@ -19,3 +19,5 @@ fi
 ln -snf "$DIRNAME/settings.json.symlink" "$USER_DIR/settings.json"
 ln -snf "$DIRNAME/keybindings.json.symlink" "$USER_DIR/keybindings.json"
 ln -snf "$DIRNAME/snippets.symlink" "$USER_DIR/snippets"
+
+echo "Installed vscode; Linked settings.json, keybindings.json and snippets/ into ${USER_DIR}."
