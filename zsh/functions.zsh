@@ -31,3 +31,16 @@ function fs() {
 function digga() {
   dig +nocmd "$1" any +multiline +noall +answer;
 }
+
+# List outdated brew formulae
+function bubo() {
+  brew update
+  brew outdated
+}
+
+# Upgrade installed brew formulae
+function bubc() {
+  brew update
+  brew upgrade
+  brew cleanup
+}
