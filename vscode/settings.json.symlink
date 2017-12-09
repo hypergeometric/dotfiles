@@ -17,6 +17,7 @@
   "prettier.printWidth": 100,
   "workbench.panel.location": "bottom",
   "cSpell.enabled": false,
+  "explorer.confirmDragAndDrop": false,
   "editor.fontFamily": "Hack",
   "editor.fontLigatures": true
 }

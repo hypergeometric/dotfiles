@@ -1,14 +1,14 @@
 export DOTFILES="$HOME/.dotfiles"
 
-export EDITOR='subl -w'
+export EDITOR='code -w'
 
 path=(
-  '/usr/local/opt/coreutils/libexec/gnubin'
+  /usr/local/opt/coreutils/libexec/gnubin
   $path
 )
 
 manpath=(
-  '/usr/local/opt/coreutils/libexec/gnuman'
+  /usr/local/opt/coreutils/libexec/gnuman
   $manpath
 )
 
