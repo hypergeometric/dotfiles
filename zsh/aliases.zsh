@@ -9,3 +9,20 @@ alias la='ls -l'
 
 # List brew formulae with dependencies
 alias brew-deps='brew deps --tree --installed | grep .'
+
+alias gst='git status'
+alias gaa='git add --all'
+alias gareset='gaa && git reset --hard'
+alias gwip='gaa && git commit --no-verify -m wip'
+alias gclean='git clean -fd'
+alias gpristine='git reset --hard && git clean -dfx'
+
+alias npmpublist='file=`npm pack`;tar tvf $file;rm -rf $file'
+
+alias docker-rm-all='docker rm -f $(docker ps -a -q)'
+
+function hidden() {
+  if [ $1 = 'true' ] || [ $1 = 'false' ]; then
+    defaults write com.apple.finder AppleShowAllFiles -boolean $1; killall Finder
+  fi
+}
