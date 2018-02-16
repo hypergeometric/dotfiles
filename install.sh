@@ -16,6 +16,7 @@ done
 
 INSTALLS=(
   antibody
+  keyboard
   macos
   vscode
 )
