@@ -11,6 +11,7 @@ alias la='ls -l'
 alias brew-deps='brew deps --tree --installed | grep .'
 
 alias gst='git status'
+alias glog='git lg'
 alias gaa='git add --all'
 alias gareset='gaa && git reset --hard'
 alias gwip='gaa && git commit --no-verify -m wip'
