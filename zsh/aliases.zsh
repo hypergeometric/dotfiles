@@ -17,6 +17,7 @@ alias gareset='gaa && git reset --hard'
 alias gwip='gaa && git commit --no-verify -m wip'
 alias gclean='git clean -fd'
 alias gpristine='git reset --hard && git clean -dfx'
+alias gamend='gaa && git commit --amend --no-edit'
 
 alias npmpublist='file=`npm pack`;tar tvf $file;rm -rf $file'
 
